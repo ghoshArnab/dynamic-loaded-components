@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Waterfall shows how nested components are dynamically loaded.
+
+https://user-images.githubusercontent.com/8266671/76525073-31659d80-6491-11ea-8de9-724eaf0d4456.png
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
