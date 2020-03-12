@@ -7,7 +7,7 @@ Waterfall shows how nested components are dynamically loaded.
 ## Button right placed twice to verify dynamic import handles duplicacy 
 ## icon,icon-left and icon-left are bundle in same chunk
 
-![alt text](https://user-images.githubusercontent.com/8266671/76526550-b6ea4d00-6493-11ea-8929-85ef1c516721.png "")
+![alt text](https://user-images.githubusercontent.com/8266671/76527292-febda400-6494-11ea-900c-19be180f0d5c.png "")
 
 
 
