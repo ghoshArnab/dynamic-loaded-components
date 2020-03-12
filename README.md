@@ -1,9 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Waterfall shows how nested components are dynamically loaded.
-https://user-images.githubusercontent.com/8266671/76525073-31659d80-6491-11ea-8de9-724eaf0d4456.png
 
-https://user-images.githubusercontent.com/8266671/76526550-b6ea4d00-6493-11ea-8929-85ef1c516721.png
+![alt text](https://user-images.githubusercontent.com/8266671/76525073-31659d80-6491-11ea-8de9-724eaf0d4456.png "")
+
+## Button right placed twice to verify dynamic import handles duplicacy 
+## icon,icon-left and icon-left are bundle in same chunk
+
+![alt text](https://user-images.githubusercontent.com/8266671/76526550-b6ea4d00-6493-11ea-8929-85ef1c516721.png "")
+
+
 
 ## Button right placed twice to verify dynamic import handles duplicacy 
 ## icon,icon-left and icon-left are bundle in same chunk
