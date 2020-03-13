@@ -2,9 +2,16 @@ import React from 'react';
 import loadable from '@loadable/component';
 
 /* controller for button */
+const btnLeft = "button-left";
+
 
 const ButtonRight = loadable(() => import(/* webpackChunkName: "button-right" */'./button-right'));
-const ButtonLeft = loadable(() => import(/* webpackChunkName: "button-left" */'./button-left'));
+
+/* [request] is an identifier for dynamic chunk name */
+const ButtonLeft = loadable(() => import(
+    /* webpackChunkName: "[request]" */
+    `./${btnLeft}`
+  ));
 const ButtonContent = loadable(() => import(/* webpackChunkName: "button-content" */'./button-content'));
 
 export default class Button extends React.Component {
