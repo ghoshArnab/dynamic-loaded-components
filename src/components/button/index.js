@@ -7,6 +7,7 @@ const btnLeft = "button-left";
 
 const ButtonRight = loadable(() => import(/* webpackChunkName: "button-right" */'./button-right'));
 
+/* https://github.com/webpack/webpack/issues/4807 */
 /* [request] is an identifier for dynamic chunk name */
 const ButtonLeft = loadable(() => import(
     /* webpackChunkName: "[request]" */
