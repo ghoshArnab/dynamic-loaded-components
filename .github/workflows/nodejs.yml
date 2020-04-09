@@ -25,6 +25,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm i -g npm-check-updates && ncu -u && npm i
+    - run: git config --global user.email "arnabnitb@gmail.com"
+    - run: git config --global user.name "ghoshArnab"
     - run: git add .
     - run: git commit -m "updated packages"
     - run: git push origin head
